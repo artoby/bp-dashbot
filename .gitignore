@@ -59,3 +59,10 @@ typings/
 
 # next.js build output
 .next
+
+# ignore module-builder folder (temporarily added to speed up development, will be replaced by a curl script later)
+module-builder
+
+# module out files
+modules/dashbot/assets
+modules/dashbot/dist

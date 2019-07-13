@@ -1,0 +1,21 @@
+{
+  "name": "dashbot",
+  "version": "1.0.0",
+  "description": "Reports user & bot messages to Dashbot analytics",
+  "private": false,
+  "main": "dist/backend/index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/module-builder build",
+    "watch": "./node_modules/.bin/module-builder watch",
+    "package": "./node_modules/.bin/module-builder package"
+  },
+  "author": "Artoby",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "@types/node": "^10.11.0",
+    "module-builder": "../../build/module-builder"
+  }
+}
