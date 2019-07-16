@@ -1,0 +1,49 @@
+{
+  "type": "carousel",
+  "channel": "web",
+  "direction": "outgoing",
+  "payload": {
+    "text": " ",
+    "type": "carousel",
+    "elements": [
+      {
+        "title": "Here's a card",
+        "picture": "http://localhost:3000/api/v1/bots/bot_1/media/l64bxu5ykhq1v3ao7bpo-waterfall.jpg",
+        "subtitle": "Card's subtitle",
+        "buttons": [
+          {
+            "type": "say_something",
+            "title": "Cool",
+            "text": "Cool"
+          }
+        ]
+      }
+    ]
+  },
+  "target": "tpWIXdIT4yMJw6wtFK4F",
+  "botId": "bot_1",
+  "createdOn": "2019-07-13T19:49:52.100Z",
+  "threadId": "1",
+  "id": "156304739210052960",
+  "preview": " ",
+  "flags": {},
+  "state": {},
+  "incomingEventId": "156304739124371870",
+  "nlu": {
+    "entities": [],
+    "language": "n/a",
+    "detectedLanguage": "n/a",
+    "ambiguous": false,
+    "slots": {},
+    "intent": {
+      "name": "none",
+      "confidence": 1,
+      "context": "global"
+    },
+    "intents": [],
+    "errored": false,
+    "includedContexts": [
+      "global"
+    ]
+  }
+}

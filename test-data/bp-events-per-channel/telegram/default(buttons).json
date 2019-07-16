@@ -1,0 +1,45 @@
+{
+  "type": "default",
+  "channel": "telegram",
+  "direction": "outgoing",
+  "payload": {
+    "text": "Do you like bots with buttons?",
+    "quick_replies": [
+      {
+        "title": "Yes",
+        "payload": "YES"
+      },
+      {
+        "title": "No",
+        "payload": "NO"
+      }
+    ],
+    "typing": true
+  },
+  "target": "429832177",
+  "botId": "bot_1",
+  "createdOn": "2019-07-13T20:29:52.172Z",
+  "threadId": "429832177",
+  "id": "156304979217287870",
+  "preview": "Do you like bots with buttons?",
+  "flags": {},
+  "state": {},
+  "incomingEventId": "156304979122485200",
+  "nlu": {
+    "entities": [],
+    "language": "n/a",
+    "detectedLanguage": "n/a",
+    "ambiguous": false,
+    "slots": {},
+    "intent": {
+      "name": "none",
+      "confidence": 1,
+      "context": "global"
+    },
+    "intents": [],
+    "errored": false,
+    "includedContexts": [
+      "global"
+    ]
+  }
+}

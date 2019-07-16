@@ -1,0 +1,51 @@
+{
+  "type": "custom",
+  "channel": "web",
+  "direction": "outgoing",
+  "payload": {
+    "type": "custom",
+    "module": "channel-web",
+    "component": "QuickReplies",
+    "quick_replies": [
+      {
+        "title": "Yes",
+        "payload": "YES"
+      },
+      {
+        "title": "No",
+        "payload": "NO"
+      }
+    ],
+    "wrapped": {
+      "type": "text",
+      "text": "Do you like bots with buttons?",
+      "typing": true
+    }
+  },
+  "target": "tpWIXdIT4yMJw6wtFK4F",
+  "botId": "bot_1",
+  "createdOn": "2019-07-13T19:48:42.531Z",
+  "threadId": "1",
+  "id": "156304732253193200",
+  "preview": "Do you like bots with buttons?",
+  "flags": {},
+  "state": {},
+  "incomingEventId": "156304732197537380",
+  "nlu": {
+    "entities": [],
+    "language": "n/a",
+    "detectedLanguage": "n/a",
+    "ambiguous": false,
+    "slots": {},
+    "intent": {
+      "name": "none",
+      "confidence": 1,
+      "context": "global"
+    },
+    "intents": [],
+    "errored": false,
+    "includedContexts": [
+      "global"
+    ]
+  }
+}

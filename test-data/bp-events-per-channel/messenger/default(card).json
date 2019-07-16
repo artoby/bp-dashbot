@@ -1,0 +1,51 @@
+{
+  "type": "default",
+  "channel": "messenger",
+  "direction": "outgoing",
+  "payload": {
+    "attachment": {
+      "type": "template",
+      "payload": {
+        "template_type": "generic",
+        "elements": [
+          {
+            "title": "Here's a card",
+            "image_url": "https://tricky-impala-74.localtunnel.me/api/v1/bots/bot_1/media/l64bxu5ykhq1v3ao7bpo-waterfall.jpg",
+            "subtitle": "Card's subtitle",
+            "buttons": [
+              {
+                "type": "web_url",
+                "url": "google.com",
+                "title": "Cool"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "target": "2226254540824341",
+  "botId": "bot_1",
+  "createdOn": "2019-07-13T20:16:57.781Z",
+  "id": "156304901778149860",
+  "flags": {},
+  "state": {},
+  "incomingEventId": "156304901723796300",
+  "nlu": {
+    "entities": [],
+    "language": "n/a",
+    "detectedLanguage": "n/a",
+    "ambiguous": false,
+    "slots": {},
+    "intent": {
+      "name": "none",
+      "confidence": 1,
+      "context": "global"
+    },
+    "intents": [],
+    "errored": false,
+    "includedContexts": [
+      "global"
+    ]
+  }
+}

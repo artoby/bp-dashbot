@@ -1,0 +1,38 @@
+{
+  "type": "default",
+  "channel": "messenger",
+  "direction": "outgoing",
+  "payload": {
+    "attachment": {
+      "type": "image",
+      "payload": {
+        "is_reusable": true,
+        "url": "https://tricky-impala-74.localtunnel.me/api/v1/bots/bot_1/media/i1f7g8ckjagnuacc4au9-jenkins.jpeg"
+      }
+    }
+  },
+  "target": "2226254540824341",
+  "botId": "bot_1",
+  "createdOn": "2019-07-13T20:10:09.291Z",
+  "id": "156304860929170300",
+  "flags": {},
+  "state": {},
+  "incomingEventId": "156304860807047260",
+  "nlu": {
+    "entities": [],
+    "language": "n/a",
+    "detectedLanguage": "n/a",
+    "ambiguous": false,
+    "slots": {},
+    "intent": {
+      "name": "none",
+      "confidence": 1,
+      "context": "global"
+    },
+    "intents": [],
+    "errored": false,
+    "includedContexts": [
+      "global"
+    ]
+  }
+}

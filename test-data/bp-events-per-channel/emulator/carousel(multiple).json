@@ -1,0 +1,71 @@
+{
+  "type": "carousel",
+  "channel": "web",
+  "direction": "outgoing",
+  "payload": {
+    "text": " ",
+    "type": "carousel",
+    "elements": [
+      {
+        "title": "Here's a carousel sunset",
+        "picture": "http://localhost:3000/api/v1/bots/bot_1/media/n9bxpaiymozi6l1odzc0-sunset.jpeg",
+        "subtitle": "Carousel's subtitle",
+        "buttons": [
+          {
+            "type": "say_something",
+            "title": "Good sunset",
+            "text": "Good sunset"
+          },
+          {
+            "type": "say_something",
+            "title": "Bad sunset",
+            "text": "Bad sunset"
+          }
+        ]
+      },
+      {
+        "title": "Sun dawn",
+        "picture": "http://localhost:3000/api/v1/bots/bot_1/media/qiyfg3h6vgo4qc73dz60-sun%20dawn.jpeg",
+        "subtitle": "Yes, sun dawn",
+        "buttons": [
+          {
+            "type": "say_something",
+            "title": "Like",
+            "text": "Like"
+          },
+          {
+            "type": "say_something",
+            "title": "Dislike",
+            "text": "Dislike"
+          }
+        ]
+      }
+    ]
+  },
+  "target": "tpWIXdIT4yMJw6wtFK4F",
+  "botId": "bot_1",
+  "createdOn": "2019-07-13T19:49:52.144Z",
+  "threadId": "1",
+  "id": "156304739214432700",
+  "preview": " ",
+  "flags": {},
+  "state": {},
+  "incomingEventId": "156304739124371870",
+  "nlu": {
+    "entities": [],
+    "language": "n/a",
+    "detectedLanguage": "n/a",
+    "ambiguous": false,
+    "slots": {},
+    "intent": {
+      "name": "none",
+      "confidence": 1,
+      "context": "global"
+    },
+    "intents": [],
+    "errored": false,
+    "includedContexts": [
+      "global"
+    ]
+  }
+}

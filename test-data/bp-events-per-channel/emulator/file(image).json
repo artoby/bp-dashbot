@@ -1,0 +1,34 @@
+{
+  "type": "file",
+  "channel": "web",
+  "direction": "outgoing",
+  "payload": {
+    "type": "file",
+    "url": "http://localhost:3000/api/v1/bots/bot_1/media/i1f7g8ckjagnuacc4au9-jenkins.jpeg"
+  },
+  "target": "tpWIXdIT4yMJw6wtFK4F",
+  "botId": "bot_1",
+  "createdOn": "2019-07-13T19:48:42.497Z",
+  "threadId": "1",
+  "id": "156304732249721280",
+  "flags": {},
+  "state": {},
+  "incomingEventId": "156304732197537380",
+  "nlu": {
+    "entities": [],
+    "language": "n/a",
+    "detectedLanguage": "n/a",
+    "ambiguous": false,
+    "slots": {},
+    "intent": {
+      "name": "none",
+      "confidence": 1,
+      "context": "global"
+    },
+    "intents": [],
+    "errored": false,
+    "includedContexts": [
+      "global"
+    ]
+  }
+}

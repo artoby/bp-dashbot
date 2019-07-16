@@ -1,0 +1,148 @@
+{
+  "type": "message",
+  "channel": "telegram",
+  "direction": "incoming",
+  "payload": {
+    "message_id": 35,
+    "from": {
+      "id": 429832177,
+      "is_bot": false,
+      "first_name": "Artyom",
+      "last_name": "Vorobyov",
+      "username": "artoby",
+      "language_code": "en"
+    },
+    "chat": {
+      "id": 429832177,
+      "first_name": "Artyom",
+      "last_name": "Vorobyov",
+      "username": "artoby",
+      "type": "private"
+    },
+    "date": 1563049880,
+    "photo": [
+      {
+        "file_id": "AgADAgADuasxG5zhUUm9gzoovXkX9jNMhA8ABG8RRx796UmpiRcDAAEC",
+        "file_size": 1217,
+        "width": 90,
+        "height": 51
+      },
+      {
+        "file_id": "AgADAgADuasxG5zhUUm9gzoovXkX9jNMhA8ABC0J3cuDn6SFihcDAAEC",
+        "file_size": 12587,
+        "width": 320,
+        "height": 180
+      },
+      {
+        "file_id": "AgADAgADuasxG5zhUUm9gzoovXkX9jNMhA8ABKjPpiGgExixixcDAAEC",
+        "file_size": 54734,
+        "width": 800,
+        "height": 449
+      },
+      {
+        "file_id": "AgADAgADuasxG5zhUUm9gzoovXkX9jNMhA8ABAp7u9BGj5WOjBcDAAEC",
+        "file_size": 135050,
+        "width": 1280,
+        "height": 719
+      }
+    ],
+    "caption": "Some caption for the image"
+  },
+  "target": "429832177",
+  "botId": "bot_1",
+  "createdOn": "2019-07-13T20:31:21.032Z",
+  "threadId": "429832177",
+  "id": "156304988103239970",
+  "flags": {},
+  "state": {
+    "user": {
+      "0": "{",
+      "1": "}",
+      "name": "Artyom"
+    },
+    "context": {
+      "currentFlow": "main.flow.json",
+      "currentNode": "ask-image",
+      "previousFlow": "main.flow.json",
+      "previousNode": "dropdown",
+      "jumpPoints": [],
+      "queue": {
+        "instructions": [
+          {
+            "type": "transition",
+            "fn": "true",
+            "node": "end-of-tests"
+          }
+        ]
+      }
+    },
+    "session": {
+      "lastMessages": [
+        {
+          "eventId": "156304979122485200",
+          "incomingPreview": "Artyom",
+          "replyConfidence": 1,
+          "replySource": "dialogManager",
+          "replyDate": "2019-07-13T20:29:52.169Z",
+          "replyPreview": "#!builtin_single-choice-LsD8gM"
+        },
+        {
+          "eventId": "156304980649665000",
+          "incomingPreview": "Yes",
+          "replyConfidence": 1,
+          "replySource": "dialogManager",
+          "replyDate": "2019-07-13T20:30:07.275Z",
+          "replyPreview": "#!builtin_card-FzJvZR"
+        },
+        {
+          "eventId": "156304980649665000",
+          "incomingPreview": "Yes",
+          "replyConfidence": 1,
+          "replySource": "dialogManager",
+          "replyDate": "2019-07-13T20:30:07.286Z",
+          "replyPreview": "#!builtin_carousel-WqJBh_"
+        },
+        {
+          "eventId": "156304980649665000",
+          "incomingPreview": "Yes",
+          "replyConfidence": 1,
+          "replySource": "dialogManager",
+          "replyDate": "2019-07-13T20:30:07.325Z",
+          "replyPreview": "#!dropdown-qaUduB"
+        },
+        {
+          "eventId": "156304980649665000",
+          "incomingPreview": "Yes",
+          "replyConfidence": 1,
+          "replySource": "dialogManager",
+          "replyDate": "2019-07-13T20:30:07.336Z",
+          "replyPreview": "#!builtin_text-VGw9wm"
+        }
+      ],
+      "slots": {}
+    },
+    "temp": {
+      "skill-choice-valid": true,
+      "skill-choice-ret": "Yes"
+    },
+    "__stacktrace": []
+  },
+  "suggestions": [],
+  "nlu": {
+    "entities": [],
+    "language": "n/a",
+    "detectedLanguage": "n/a",
+    "ambiguous": false,
+    "slots": {},
+    "intent": {
+      "name": "none",
+      "confidence": 1,
+      "context": "global"
+    },
+    "intents": [],
+    "errored": false,
+    "includedContexts": [
+      "global"
+    ]
+  }
+}

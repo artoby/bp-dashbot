@@ -1,0 +1,110 @@
+{
+  "type": "message",
+  "channel": "telegram",
+  "direction": "incoming",
+  "payload": {
+    "message_id": 29,
+    "from": {
+      "id": 429832177,
+      "is_bot": false,
+      "first_name": "Artyom",
+      "last_name": "Vorobyov",
+      "username": "artoby",
+      "language_code": "en"
+    },
+    "chat": {
+      "id": 429832177,
+      "first_name": "Artyom",
+      "last_name": "Vorobyov",
+      "username": "artoby",
+      "type": "private"
+    },
+    "date": 1563049806,
+    "text": "Yes"
+  },
+  "target": "429832177",
+  "botId": "bot_1",
+  "createdOn": "2019-07-13T20:30:06.496Z",
+  "threadId": "429832177",
+  "id": "156304980649665000",
+  "preview": "Yes",
+  "flags": {},
+  "state": {
+    "user": {
+      "0": "{",
+      "1": "}",
+      "name": "Artyom"
+    },
+    "context": {
+      "currentFlow": "skills/choice-0714af.flow.json",
+      "currentNode": "parse",
+      "previousFlow": "main.flow.json",
+      "previousNode": "choice",
+      "jumpPoints": [
+        {
+          "flow": "main.flow.json",
+          "node": "choice"
+        }
+      ],
+      "queue": {
+        "instructions": [
+          {
+            "type": "on-receive",
+            "fn": "basic-skills/choice_parse_answer {\"contentId\":\"builtin_single-choice-LsD8gM\",\"invalidContentId\":\"\",\"keywords\":{\"Yes\":[\"Yes\"],\"No\":[\"No\"]},\"config\":{}}"
+          },
+          {
+            "type": "transition",
+            "fn": "temp['skill-choice-valid'] === true",
+            "node": "#"
+          },
+          {
+            "type": "transition",
+            "fn": "true",
+            "node": "invalid"
+          }
+        ]
+      }
+    },
+    "session": {
+      "lastMessages": [
+        {
+          "eventId": "156304974996197400",
+          "incomingPreview": "a",
+          "replyConfidence": 1,
+          "replySource": "dialogManager",
+          "replyDate": "2019-07-13T20:29:11.073Z",
+          "replyPreview": "#!builtin_text-KAwvP9"
+        },
+        {
+          "eventId": "156304979122485200",
+          "incomingPreview": "Artyom",
+          "replyConfidence": 1,
+          "replySource": "dialogManager",
+          "replyDate": "2019-07-13T20:29:52.169Z",
+          "replyPreview": "#!builtin_single-choice-LsD8gM"
+        }
+      ],
+      "slots": {}
+    },
+    "temp": {},
+    "__stacktrace": []
+  },
+  "suggestions": [],
+  "nlu": {
+    "entities": [],
+    "language": "n/a",
+    "detectedLanguage": "n/a",
+    "ambiguous": false,
+    "slots": {},
+    "intent": {
+      "name": "none",
+      "confidence": 1,
+      "context": "global"
+    },
+    "intents": [],
+    "errored": false,
+    "includedContexts": [
+      "global"
+    ]
+  }
+}

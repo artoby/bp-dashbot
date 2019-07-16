@@ -1,0 +1,59 @@
+{
+  "type": "message",
+  "channel": "telegram",
+  "direction": "incoming",
+  "payload": {
+    "message_id": 25,
+    "from": {
+      "id": 429832177,
+      "is_bot": false,
+      "first_name": "Artyom",
+      "last_name": "Vorobyov",
+      "username": "artoby",
+      "language_code": "en"
+    },
+    "chat": {
+      "id": 429832177,
+      "first_name": "Artyom",
+      "last_name": "Vorobyov",
+      "username": "artoby",
+      "type": "private"
+    },
+    "date": 1563049740,
+    "text": "a"
+  },
+  "target": "429832177",
+  "botId": "bot_1",
+  "createdOn": "2019-07-13T20:29:09.961Z",
+  "threadId": "429832177",
+  "id": "156304974996197400",
+  "preview": "a",
+  "flags": {},
+  "state": {
+    "user": "{}",
+    "context": {},
+    "session": {
+      "lastMessages": []
+    },
+    "temp": {},
+    "__stacktrace": []
+  },
+  "suggestions": [],
+  "nlu": {
+    "entities": [],
+    "language": "n/a",
+    "detectedLanguage": "n/a",
+    "ambiguous": false,
+    "slots": {},
+    "intent": {
+      "name": "none",
+      "confidence": 1,
+      "context": "global"
+    },
+    "intents": [],
+    "errored": false,
+    "includedContexts": [
+      "global"
+    ]
+  }
+}

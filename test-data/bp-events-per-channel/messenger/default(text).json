@@ -1,0 +1,33 @@
+{
+  "type": "default",
+  "channel": "messenger",
+  "direction": "outgoing",
+  "payload": {
+    "text": "Hi. What's your name?"
+  },
+  "target": "2226254540824341",
+  "botId": "bot_1",
+  "createdOn": "2019-07-13T20:09:14.460Z",
+  "id": "156304855446072450",
+  "preview": "Hi. What's your name?",
+  "flags": {},
+  "state": {},
+  "incomingEventId": "156304855294272100",
+  "nlu": {
+    "entities": [],
+    "language": "n/a",
+    "detectedLanguage": "n/a",
+    "ambiguous": false,
+    "slots": {},
+    "intent": {
+      "name": "none",
+      "confidence": 1,
+      "context": "global"
+    },
+    "intents": [],
+    "errored": false,
+    "includedContexts": [
+      "global"
+    ]
+  }
+}

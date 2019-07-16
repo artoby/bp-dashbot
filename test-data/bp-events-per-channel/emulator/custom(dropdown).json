@@ -1,0 +1,50 @@
+{
+  "type": "custom",
+  "channel": "web",
+  "direction": "outgoing",
+  "payload": {
+    "type": "custom",
+    "module": "extensions",
+    "component": "Dropdown",
+    "message": "Here's a dropdown",
+    "buttonText": "text on button",
+    "displayInKeyboard": true,
+    "options": [
+      {
+        "label": "1",
+        "value": "1"
+      },
+      {
+        "label": "2",
+        "value": "2"
+      }
+    ],
+    "allowMultiple": true,
+    "width": 200
+  },
+  "target": "tpWIXdIT4yMJw6wtFK4F",
+  "botId": "bot_1",
+  "createdOn": "2019-07-13T19:49:52.208Z",
+  "threadId": "1",
+  "id": "156304739220890050",
+  "flags": {},
+  "state": {},
+  "incomingEventId": "156304739124371870",
+  "nlu": {
+    "entities": [],
+    "language": "n/a",
+    "detectedLanguage": "n/a",
+    "ambiguous": false,
+    "slots": {},
+    "intent": {
+      "name": "none",
+      "confidence": 1,
+      "context": "global"
+    },
+    "intents": [],
+    "errored": false,
+    "includedContexts": [
+      "global"
+    ]
+  }
+}

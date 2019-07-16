@@ -1,0 +1,43 @@
+{
+  "type": "message",
+  "channel": "messenger",
+  "direction": "incoming",
+  "payload": {
+    "mid": "WQCXkrPdsFO-YiLSM1bdsgbBNFa31BSnuvrVKs-JrJv8hY1UV0BFqZgLiNEg_G-u_Pq3Uh7FOjrrXBZZBKNlCA",
+    "seq": 0,
+    "text": "hi"
+  },
+  "target": "2226254540824341",
+  "botId": "bot_1",
+  "createdOn": "2019-07-13T20:09:12.942Z",
+  "id": "156304855294272100",
+  "preview": "hi",
+  "flags": {},
+  "state": {
+    "user": "{}",
+    "context": {},
+    "session": {
+      "lastMessages": []
+    },
+    "temp": {},
+    "__stacktrace": []
+  },
+  "suggestions": [],
+  "nlu": {
+    "entities": [],
+    "language": "n/a",
+    "detectedLanguage": "n/a",
+    "ambiguous": false,
+    "slots": {},
+    "intent": {
+      "name": "none",
+      "confidence": 1,
+      "context": "global"
+    },
+    "intents": [],
+    "errored": false,
+    "includedContexts": [
+      "global"
+    ]
+  }
+}
